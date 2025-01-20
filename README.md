@@ -32,8 +32,8 @@ If you'd like to contribute to this effort, please feel free to open an issue or
 
 # Credits & Thanks
 
-- **watertoon**: For the initial .crbin hexpat
-- **dt13269**: Most of my research is built on research by them.
+- **watertoon**: For the decompression hexpat
+- **dt13269**: Most of my research is built on research by them along with hexpat information for multiple files.
 - **The Zelda Data Collection & Research community.**
 
 # Libraries & Frameworks
