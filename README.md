@@ -4,7 +4,7 @@ Caves of the Kingdom is a reverse engineering research effort focused on underst
 
 ## .crbin (cave-related binary)
 
-Crbin files represent compression information about chunks and structure **SVO (Sparse-Voxel-Octree)** data. The overall structure of .crbin files is known, but the purpose for each field and/or sections are not fully known. The sections in the hexpat and in the library refer to the sections simply as 'Section<N>', but there are signs of what some of the sections represent:
+Crbin files represent compression information about chunks and structured **SVO (Sparse-Voxel-Octree)** data. The overall structure of .crbin files is known, but the purpose for each field and/or sections are not fully known. The sections in the hexpat and in the library refer to the sections simply as 'Section<N>', but there are signs of what some of the sections represent:
 
 - **Section1**: Per-Node Page File Size (Prossibly for LOD data)
 - **Section2**: SVO Node Relationship Information
@@ -44,5 +44,5 @@ If you'd like to contribute to this effort, please feel free to open an issue or
 
 # Roadmap
 
-- I have a test renderer written in OpenGL. Once I can update it, it will provide a way to visualize node information contained in .crbin files.
+- I have a test renderer written to work with OpenGL. Once I can update it, it will provide a way to visualize node information contained in .crbin files.
 - Once the rendering process is fully understood, I plan to provide a tool to convert SDF vertex data for chunks into a standard model format.
